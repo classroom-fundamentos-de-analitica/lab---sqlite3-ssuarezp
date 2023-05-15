@@ -37,6 +37,8 @@
 --  0  29  101.11  100  2017-11-17  0.42  MV-CB
 --
 --  >>> Escriba su codigo a partir de este punto <<<
+import sqlite3
 %%sql
+
 SELECT * FROM tbl2 WHERE c21 = (SELECT MIN(c21) FROM tbl2);
 --
