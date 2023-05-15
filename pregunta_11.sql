@@ -37,5 +37,6 @@
 --  0  2018     6
 --
 --  >>> Escriba su codigo a partir de este punto <<<
+%%sql
 SELECT COUNT(*) FROM tbl1 WHERE strftime('%Y',c14) = '2018';
 -- 
