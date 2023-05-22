@@ -42,9 +42,6 @@
 --  12  C  24  482.32  300  2019-05-03  0.11  CCCE
 -- 
 --  >>> Escriba su codigo a partir de este punto <<<
-import sqlite3
-%%sql
-
 SELECT * FROM tbl1 WHERE k0 <> 'A' AND k0 <> 'B'
 and c13 <> 200 AND c13 <> 900
 ORDER BY c14;
