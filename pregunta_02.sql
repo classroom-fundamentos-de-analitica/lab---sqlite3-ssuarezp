@@ -17,8 +17,5 @@
 --  0        30
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-import sqlite3
-%%sql
-
-SELECT COUNT(*) FROM tbl1;
+SELECT COUNT(*) FROM tbl1
 -- 

@@ -16,13 +16,4 @@
 --  0  15137.63
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-%%capture
-!pip install ipython-sql sqlalchemy
-import sqlalchemy
-sqlalchemy.create_engine('sqlite:///data/ecommerceSQLite.db')
-%load_ext sql
-%sql sqlite:///data/ecommerceSQLite.db
-import sqlite3
-%%sql
-SELECT SUM(c12) FROM tbl1;
---
+SELECT SUM(c12) FROM tbl1
